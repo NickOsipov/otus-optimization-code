@@ -10,3 +10,4 @@ code
 *.svg
 .vscode
 .idea
+.pytest_cache
