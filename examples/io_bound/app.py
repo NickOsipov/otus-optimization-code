@@ -28,7 +28,7 @@ def get_root():
     """
     Helthcheck endpoint
     """
-    return {"message": "Hello"}
+    return {"status": "ok"}
 
 
 @app.get("/total")
