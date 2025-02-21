@@ -28,7 +28,7 @@ def run_app(ctx: Context) -> None:
     """
     Run the application
     """
-    cmd = "uvicorn examples.io.app:app --port 5002 --reload"
+    cmd = "uvicorn examples.io_bound.app:app --port 5002 --reload"
     print(cmd)
     ctx.run(cmd)
 
