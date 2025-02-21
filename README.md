@@ -14,16 +14,10 @@
 1. Запросить id файла у преподавателя
 2. Установить зависимости в виртуальное окружение
 ```bash
-python3 -m venv .venv
+uv venv
+uv sync
 source .venv/bin/activate
-pip install -r requirements/requirements-dev.txt
 invoke download-data
-```
-
-## Установка остальных зависимостей
-```bash
-pip install -r requirements/requirements-lint.txt
-pip install -r requirements/requirements.txt
 ```
 
 ## Автор
