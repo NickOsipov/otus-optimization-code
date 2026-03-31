@@ -14,10 +14,14 @@
 1. Запросить id файла у преподавателя
 2. Установить зависимости в виртуальное окружение
 ```bash
-uv venv
 uv sync
 source .venv/bin/activate
 invoke download-data
+```
+
+# Запустить веб-сервис
+```bash
+invoke run-app
 ```
 
 ## Автор
